@@ -1,17 +1,17 @@
 // promise outcome based questions practice.
-// let pro = new Promise((res,rej)=>{
-//     let a=10;
-//     if(a>50){
-//         res();
-//     }
-//     else{
-//         rej()
-//     }
-// })
-// pro.then(()=>{
-//     console.log("promise resolved")
-// })
-// .catch(()=>console.log("promise rejected"))
+let pro = new Promise((res,rej)=>{
+    let a=10;
+    if(a>50){
+        res();
+    }
+    else{
+        rej()
+    }
+})
+pro.then(()=>{
+    console.log("promise resolved")
+})
+.catch(()=>console.log("promise rejected"))
 
 // Promises: used to manage asynchronous code effectivly 
 // better than callback hell. And advantages are easy to manage the codes, 
