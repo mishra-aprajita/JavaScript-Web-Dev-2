@@ -24,4 +24,8 @@
 13.difference between setTimeout and setInterval.1
 14.what is callback hell and pyramid dom?
 15.why we need asynchronous type of coding.
+16.What is react and its feature 
+17.Diff b/w react vs angular vs vue 
+18.Whar is virtul DOM 
+19.
 *querySelector?
