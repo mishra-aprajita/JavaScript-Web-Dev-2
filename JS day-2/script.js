@@ -6,12 +6,12 @@ let double=numbers.map((x)=>x*2); //We call it callback function.Map is a higher
 console.log(double);
 
 // 2.FILTER METHOD
-let marks=[7,23,34,35,26,37,4,0,45,33];
+/*let marks=[7,23,34,35,26,37,4,0,45,33];
 let result=marks.filter((marks)=>marks>=16);
-console.log(result); 
+ console.log(result); */
 
 /* Q1 Take a array with 10 different marks and print the marks and the message of pass and fail */
-/*let marks=[33,22,44,11,23,34,45,20,39,47];
+let marks=[33,22,44,11,23,34,45,20,39,47];
 let result=marks.filter((mark)=>{
     if (mark>=16){
         console.log(mark,"Pass")
@@ -19,7 +19,8 @@ let result=marks.filter((mark)=>{
     else{
         console.log(mark,"Fail")
     }
-});*/
+});
+
 
 // 3. REDUCE METHOD-Reduce an array to a single value.
 // Q2 Find out the sum of all the elements inside an array using for loop
